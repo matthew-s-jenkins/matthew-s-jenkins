@@ -1,44 +1,90 @@
 # Matthew S. Jenkins
 
-### Software Engineer & Aspiring Accountant | Bridging Code and Financial Acumen
+### Supply Chain & Operations Analyst | Data-Driven Problem Solver
 
-As a software engineer currently pursuing a B.S. in Accounting, I build data-centric applications that solve real-world financial and operational challenges. My work focuses on creating intuitive systems that not only function flawlessly but also provide deep, actionable insights rooted in accounting principles. I am passionate about leveraging technology to translate complex data into clear financial narratives.
+I build software that solves real operational and financial challenges. With 5+ years analyzing sales and inventory data in retail, I'm now completing a B.S. in Accounting to deepen my expertise in cost analysis and financial operations. My projects demonstrate how technical skills and business knowledge combine to drive better decisions.
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🥇 [Perfect Books - Personal Finance & Accounting App](https://github.com/matthew-s-jenkins/perfect-books)
+### [Perfect Books - Personal Finance Application](https://github.com/matthew-s-jenkins/perfect-books)
 
-A comprehensive personal finance application designed from the ground up with accounting integrity in mind. Perfect Books goes beyond simple expense tracking by implementing a full double-entry accounting system on the backend. It allows for detailed transaction recording, financial statement generation, and insightful analysis, serving as a practical tool for personal financial management and a demonstration of core accounting software architecture.
+A personal finance application built on double-entry accounting principles to manage multiple accounts, track debt, and maintain financial integrity. As an independent contractor with fluctuating income and multiple credit cards, I needed a tool that worked like a real accounting system - not just a budget tracker.
 
-* **Tech Stack:** Python, Flask, MySQL, React, Tailwind CSS
-* **Key Features:** Double-entry bookkeeping, transaction management, financial reporting.
+**What It Does:**
+- Tracks all accounts (checking, savings, credit cards, loans) with proper double-entry bookkeeping
+- Provides real-time net worth calculation and debt visualization
+- Automates recurring transactions with variable amount support
+- Maintains an immutable audit trail - transactions can be reversed but never deleted
+- Includes interactive analytics with drill-down capabilities
 
-### 🥈 [Digital Harvest - Business Simulation Engine](https://github.com/matthew-s-jenkins/digital-harvest-sim)
+**Technical Implementation:**
+- **Backend:** Python + Flask REST API with stateless architecture
+- **Database:** MySQL with normalized schema designed for data integrity
+- **Frontend:** React with Tailwind CSS for responsive UI
+- **Key Challenge:** Implementing running balance calculations efficiently while maintaining complete transaction history
 
-An interactive simulator that models the complete operational and financial lifecycle of a retail business. Users manage inventory and make strategic decisions, while every action is recorded in a relational database and reflected on a real-time accounting ledger. This project was my initial exploration into the intersection of code and commerce, using Power BI for advanced sales analysis and forecasting.
+**Business Value:** Demonstrates understanding of accounting principles, data integrity, and building production-ready financial systems.
 
-* **Tech Stack:** Python, MySQL, Power BI, React
-* **Key Features:** Business process simulation, database-driven analytics, data visualization.
+[Live Demo](https://web-production-4abea.up.railway.app/index.html) | [View Code](https://github.com/matthew-s-jenkins/perfect-books)
 
-## 💻 Skills & Technologies
+---
 
-**Languages & Databases**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+### [Digital Harvest - Business Simulation & Analytics Platform](https://github.com/matthew-s-jenkins/digital-harvest-sim)
 
-**Frontend & Visualization**
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![VBA](https://img.shields.io/badge/VBA-777BB4?style=for-the-badge&logo=microsoft-access&logoColor=white)
+A full-stack simulation engine that models retail operations with accounting accuracy. Built to generate realistic sales data for Power BI analysis - the same kind of data I worked with professionally, but on demand.
 
-## 📫 How to Reach Me
+**What It Does:**
+- Simulates complete retail operations: sales, inventory, procurement, and financial tracking
+- Models realistic demand with seasonal trends, weekly patterns, and market events
+- Implements perpetual inventory with FIFO costing
+- Manages supply chain decisions: vendor selection, lead times, and order optimization
+- Connects directly to Power BI for advanced analytics
 
-* **LinkedIn:** [linkedin.com/in/matthew-s-jenkins](https://www.linkedin.com/in/matthew-s-jenkins/)
-* **Email:** [mjenkins87@live.com](mailto:mjenkins87@live.com)
+**Technical Implementation:**
+- **Backend:** Python simulation engine with double-entry accounting
+- **Database:** MySQL star schema optimized for BI connectivity
+- **Analytics:** Power BI dashboards for sales trends, inventory analysis, and vendor ROI
+- **Key Challenge:** Creating demand algorithms that produce data realistic enough for meaningful analysis
+
+**Business Value:** Demonstrates supply chain management principles, inventory optimization, demand forecasting, and financial modeling.
+
+[View Code](https://github.com/matthew-s-jenkins/digital-harvest-sim) | [Read Analysis Stories](https://matthew-s-jenkins.github.io/digital-harvest-sim/stories/index.html)
+
+---
+
+## Technical Skills
+
+**Data & Analytics**
+- SQL (MySQL, PostgreSQL) - Complex queries, CTEs, window functions
+- Power BI - Dashboard development, DAX, data modeling
+- Python - Data analysis, automation, backend development
+- Excel/VBA - Advanced formulas, pivot tables, automation
+
+**Development**
+- Backend: Python (Flask), Node.js, PHP
+- Frontend: React, JavaScript, Tailwind CSS
+- Database Design: Normalization, indexing, referential integrity
+- Version Control: Git, GitHub
+
+**Supply Chain & Operations**
+- Inventory optimization and demand forecasting
+- Procurement analysis and vendor evaluation
+- Cost reduction and process automation
+- Logistics planning and distribution optimization
+
+## Professional Experience Highlights
+
+**Data Analyst | High Life Enterprises** (2019-2024)
+- Recovered $200,000+ in working capital through SQL-based inventory optimization
+- Improved order fulfillment rates by 15% using automated distribution systems
+- Built company-wide 400+ column daily sales report that became the central data source for purchasing and logistics decisions
+
+## Currently
+
+Completing B.S. in Accounting at Western Governors University while developing these technical projects to demonstrate the intersection of data analysis, supply chain management, and financial systems.
+
+## Let's Connect
+
+- **LinkedIn:** [linkedin.com/in/matthew-s-jenkins](https://www.linkedin.com/in/matthew-s-jenkins/)
+- **Email:** [mjenkins87@live.com](mailto:mjenkins87@live.com)
+- **GitHub:** [@matthew-s-jenkins](https://github.com/matthew-s-jenkins)
