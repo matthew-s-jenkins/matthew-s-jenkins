@@ -1,87 +1,120 @@
 # Matthew S. Jenkins
 
-### Supply Chain & Operations Analyst | Data-Driven Problem Solver
+### Senior Data Analyst | SQL & Dashboard Development | Strategy & Operations
 
-I build software that solves real operational and financial challenges. With 5+ years analyzing sales and inventory data in retail, I'm now completing a B.S. in Accounting to deepen my expertise in cost analysis and financial operations. My projects demonstrate how technical skills and business knowledge combine to drive better decisions.
+I build software that solves real operational and financial challenges. With 5+ years building reporting infrastructure that drives strategic decisions across 24 retail locations, I've seen firsthand how the right data tools transform business outcomes. Now completing a B.S. in Accounting (already hold B.S. in IT), I'm combining technical depth with financial expertise to build tools that help businesses operate with precision.
+
+---
+
+## The Journey
+
+These projects aren't just portfolio pieces - they're an evolving system. Each one solved a real problem and became the foundation for the next:
+
+**Digital Harvest** started as a way to generate realistic business data for Power BI practice - the same kind of data I analyzed professionally, but on demand. Building the simulation taught me that accurate financial tracking requires proper accounting architecture.
+
+**Perfect Books** emerged when I needed to manage my own finances as an independent contractor. Budget trackers weren't enough - I needed real double-entry accounting. The system I built for myself became production-ready software.
+
+**Next:** These foundations are becoming business operations software - inventory management, FIFO costing, and financial reporting for small businesses who need enterprise-grade accuracy without enterprise complexity.
+
+---
 
 ## Featured Projects
 
 ### [Perfect Books - Personal Finance Application](https://github.com/matthew-s-jenkins/perfect-books)
 
-A personal finance application built on double-entry accounting principles to manage multiple accounts, track debt, and maintain financial integrity. As an independent contractor with fluctuating income and multiple credit cards, I needed a tool that worked like a real accounting system - not just a budget tracker.
+**The Problem:** As an independent contractor with variable income and multiple accounts, I needed financial software that worked like a real accounting system - not just a budget tracker that loses precision.
 
-**What It Does:**
-- Tracks all accounts (checking, savings, credit cards, loans) with proper double-entry bookkeeping
-- Provides real-time net worth calculation and debt visualization
-- Automates recurring transactions with variable amount support
-- Maintains an immutable audit trail - transactions can be reversed but never deleted
-- Includes interactive analytics with drill-down capabilities
+**The Solution:** A full double-entry accounting system that maintains an immutable audit trail while remaining intuitive enough for daily use.
 
-**Technical Implementation:**
-- **Backend:** Python + Flask REST API with stateless architecture
-- **Database:** MySQL with normalized schema designed for data integrity
-- **Frontend:** React with Tailwind CSS for responsive UI
-- **Key Challenge:** Implementing running balance calculations efficiently while maintaining complete transaction history
+**Key Features:**
+- Double-entry bookkeeping across all account types (checking, savings, credit cards, loans)
+- Budget planning with spending limits and visual progress tracking
+- Savings goals with target dates and account linking
+- Business vs. personal transaction separation for tax tracking
+- 9 interactive analysis charts including net worth trends and financial runway
+- Real-time balance calculations with complete transaction history
 
-**Business Value:** Demonstrates understanding of accounting principles, data integrity, and building production-ready financial systems.
+**Technical Stack:**
+- **Backend:** Python + Flask REST API
+- **Database:** SQLite with normalized schema and referential integrity
+- **Frontend:** React + Tailwind CSS with 6 customizable themes
+- **Architecture:** Stateless API, immutable ledger, audit-ready design
 
-[Live Demo](https://web-production-4abea.up.railway.app/index.html) | [View Code](https://github.com/matthew-s-jenkins/perfect-books)
+[Live Demo](https://perfect-books-4b41d9988243.herokuapp.com/login.html) | [View Code](https://github.com/matthew-s-jenkins/perfect-books)
 
 ---
 
 ### [Digital Harvest - Business Simulation & Analytics Platform](https://github.com/matthew-s-jenkins/digital-harvest-sim)
 
-A full-stack simulation engine that models retail operations with accounting accuracy. Built to generate realistic sales data for Power BI analysis - the same kind of data I worked with professionally, but on demand.
+**The Problem:** I wanted to practice Power BI analysis on realistic business data, but couldn't find datasets with the complexity of real retail operations - seasonal trends, weekly patterns, inventory dynamics, and proper financial tracking.
 
-**What It Does:**
-- Simulates complete retail operations: sales, inventory, procurement, and financial tracking
-- Models realistic demand with seasonal trends, weekly patterns, and market events
-- Implements perpetual inventory with FIFO costing
-- Manages supply chain decisions: vendor selection, lead times, and order optimization
-- Connects directly to Power BI for advanced analytics
+**The Solution:** A simulation engine that generates years of realistic business data with full accounting accuracy, designed specifically for BI connectivity.
 
-**Technical Implementation:**
-- **Backend:** Python simulation engine with double-entry accounting
-- **Database:** MySQL star schema optimized for BI connectivity
-- **Analytics:** Power BI dashboards for sales trends, inventory analysis, and vendor ROI
-- **Key Challenge:** Creating demand algorithms that produce data realistic enough for meaningful analysis
+**Key Features:**
+- Realistic demand modeling with seasonal trends, weekly patterns, and market events
+- Complete supply chain simulation: vendors, lead times, purchase orders
+- Perpetual inventory with FIFO costing
+- Double-entry accounting for every transaction
+- Direct Power BI integration for advanced analytics
 
-**Business Value:** Demonstrates supply chain management principles, inventory optimization, demand forecasting, and financial modeling.
+**Technical Stack:**
+- **Backend:** Python simulation engine
+- **Database:** SQLite (rebuilding from MySQL foundation)
+- **Analytics:** Power BI dashboards for sales trends, inventory analysis, and vendor performance
+- **Key Innovation:** Demand algorithms that produce analytically meaningful data
 
-[View Code](https://github.com/matthew-s-jenkins/digital-harvest-sim) | [Read Analysis Stories](https://matthew-s-jenkins.github.io/digital-harvest-sim/stories/index.html)
+*Currently rebuilding on Perfect Books' proven SQLite architecture*
+
+[View Code](https://github.com/matthew-s-jenkins/digital-harvest-sim)
+
+---
+
+### Artifact Live - Business Operations Platform (Coming Soon)
+
+**The Vision:** Taking the battle-tested accounting and inventory systems from these projects and building operational software for real businesses - starting with FIFO inventory management and expanding toward a lightweight ERP solution.
+
+**Current State:** Core inventory tracking with FIFO cost layers functional. Building toward purchase orders, sales fulfillment, and customizable business wrappers.
 
 ---
 
 ## Technical Skills
 
 **Data & Analytics**
-- SQL (MySQL, PostgreSQL) - Complex queries, CTEs, window functions
+- SQL/MySQL (Expert) - Complex queries, CTEs, window functions, performance optimization
 - Power BI - Dashboard development, DAX, data modeling
-- Python - Data analysis, automation, backend development
-- Excel/VBA - Advanced formulas, pivot tables, automation
+- Python - Backend development, data analysis, automation
+- Excel/VBA - Advanced formulas, pivot tables, automated reporting
 
 **Development**
-- Backend: Python (Flask), Node.js, PHP
+- Backend: Python (Flask), PHP, Node.js
 - Frontend: React, JavaScript, Tailwind CSS
-- Database Design: Normalization, indexing, referential integrity
+- Database Design: Normalization, indexing, referential integrity, FIFO costing
 - Version Control: Git, GitHub
 
-**Supply Chain & Operations**
+**Domain Expertise**
+- Double-entry accounting and financial reporting
 - Inventory optimization and demand forecasting
-- Procurement analysis and vendor evaluation
-- Cost reduction and process automation
-- Logistics planning and distribution optimization
+- Supply chain operations and vendor management
+- Cross-functional collaboration and stakeholder communication
 
-## Professional Experience Highlights
+---
 
-**Data Analyst | High Life Enterprises** (2019-2024)
-- Recovered $200,000+ in working capital through SQL-based inventory optimization
-- Improved order fulfillment rates by 15% using automated distribution systems
-- Built company-wide 400+ column daily sales report that became the central data source for purchasing and logistics decisions
+## Professional Impact
+
+**Data Analyst | High Life Enterprises** (2019-2024) | $45M Multi-Location Retail Chain
+
+- Built 400+ column operations dashboard serving as primary decision-making tool for purchasing, logistics, and P&L management across 24 locations
+- Partnered with CEO on strategic pricing and inventory decisions, driving $350-400K in revenue recovery from underperforming inventory
+- Developed automated data pipelines connecting POS, inventory, and financial systems for real-time enterprise reporting
+- Evaluated ERP platforms (NetSuite, Dynamics, Cin7), presenting cost-benefit analysis to leadership
+
+---
 
 ## Currently
 
-Completing B.S. in Accounting at Western Governors University while developing these technical projects to demonstrate the intersection of data analysis, supply chain management, and financial systems.
+Completing B.S. in Accounting at Western Governors University (B.S. in IT completed 2020) while building these technical projects. The combination of hands-on development experience and formal accounting education is deliberate - I'm building toward software that helps small businesses operate with the financial precision of enterprises.
+
+---
 
 ## Let's Connect
 
