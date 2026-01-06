@@ -2,7 +2,7 @@
 
 ### Senior Data Analyst | SQL & Dashboard Development | Strategy & Operations
 
-I build software that solves operational and financial problems businesses actually face. With 5+ years building reporting infrastructure that drove strategic decisions across 24 retail locations, I know what data tools need to do to transform outcomes. Now completing a B.S. in Accounting (already hold a B.S. in IT), I'm combining technical depth with financial expertise to build tools that help businesses operate with precision.
+I build software that solves real operational and financial challenges. With 5+ years building reporting infrastructure that drives strategic decisions across 24 retail locations, I've seen firsthand how the right data tools transform business outcomes. Now completing a B.S. in Accounting (already hold B.S. in IT), I'm combining technical depth with financial expertise to build tools that help businesses operate with precision.
 
 ---
 
@@ -14,7 +14,7 @@ These projects aren't just portfolio pieces - they're an evolving system. Each o
 
 **Perfect Books** emerged when I needed to manage my own finances as an independent contractor. Budget trackers weren't enough - I needed real double-entry accounting. The system I built for myself became production-ready software.
 
-**Next:** These foundations are evolving into business operations software - inventory management, FIFO costing, and financial reporting for small businesses who need enterprise-grade accuracy without enterprise complexity.
+**Next:** These foundations are becoming business operations software - inventory management, FIFO costing, and financial reporting for small businesses who need enterprise-grade accuracy without enterprise complexity.
 
 ---
 
@@ -31,7 +31,7 @@ These projects aren't just portfolio pieces - they're an evolving system. Each o
 - Budget planning with spending limits and visual progress tracking
 - Savings goals with target dates and account linking
 - Business vs. personal transaction separation for tax tracking
-- Interactive analysis charts including net worth trends and financial runway
+- 9 interactive analysis charts including net worth trends and financial runway
 - Real-time balance calculations with complete transaction history
 
 **Technical Stack:**
@@ -46,26 +46,28 @@ These projects aren't just portfolio pieces - they're an evolving system. Each o
 
 ### [Digital Harvest - Business Simulation & Analytics Platform](https://github.com/matthew-s-jenkins/digital-harvest-sim)
 
-**The Problem:** I wanted to practice Power BI analysis on realistic business data, but couldn't find datasets with the complexity I dealt with in real retail operations - seasonal trends, weekly patterns, inventory dynamics, and proper financial tracking.
+**The Problem:** I wanted to practice Power BI analysis on realistic business data, but couldn't find datasets with the complexity of real retail operations - seasonal trends, weekly patterns, inventory dynamics, and proper financial tracking.
 
-**The Solution:** A simulation engine that generates years of realistic business data with full accounting accuracy, designed specifically for BI connectivity.
+**The Solution:** A fully playable business simulation with real accounting accuracy. Run a keyboard shop, tech store, or vertical farm while the system generates analytically meaningful data with proper double-entry bookkeeping.
 
 **Key Features:**
-- Realistic demand modeling with seasonal trends, weekly patterns, and market events
-- Complete supply chain simulation: vendors, lead times, purchase orders
-- Perpetual inventory with FIFO costing
-- Double-entry accounting for every transaction
+- Three unique businesses with different volatility profiles and product catalogs
+- Realistic demand modeling with seasonal trends, weekly patterns, and random market events
+- 90-day business maturity system - new businesses build customer base gradually
+- Complete supply chain: vendors, lead times, minimum orders, accounts payable
+- FIFO inventory costing with perpetual tracking
+- **Full 3-statement financial reporting** - Income Statement, Balance Sheet, Cash Flow Statement
+- **Analytics dashboard** with Chart.js graphs for revenue trends and sales velocity
+- Days supply calculations throughout for inventory planning
 - Direct Power BI integration for advanced analytics
 
 **Technical Stack:**
-- **Backend:** Python simulation engine
-- **Database:** SQLite (rebuilding from MySQL foundation)
-- **Analytics:** Power BI dashboards for sales trends, inventory analysis, and vendor performance
-- **Key Innovation:** Demand algorithms that produce analytically meaningful data
+- **Backend:** Python + Flask REST API with game engine
+- **Database:** SQLite with normalized schema, FIFO cost layers, double-entry ledger
+- **Frontend:** React + Tailwind CSS + Chart.js
+- **Architecture:** Shares accounting foundation with Perfect Books
 
-*Currently rebuilding on Perfect Books' proven SQLite architecture*
-
-[View Code](https://github.com/matthew-s-jenkins/digital-harvest-sim)
+[Live Demo](https://digital-harvest-sim-4cff42aff69b.herokuapp.com/) | [View Code](https://github.com/matthew-s-jenkins/digital-harvest-sim)
 
 ---
 
@@ -90,17 +92,12 @@ These projects aren't just portfolio pieces - they're an evolving system. Each o
 - Frontend: React, JavaScript, Tailwind CSS
 - Database Design: Normalization, indexing, referential integrity, FIFO costing
 - Version Control: Git, GitHub
-- AI-Assisted Development: Claude, GitHub Copilot
 
 **Domain Expertise**
 - Double-entry accounting and financial reporting
 - Inventory optimization and demand forecasting
 - Supply chain operations and vendor management
 - Cross-functional collaboration and stakeholder communication
-
-**Certifications**
-- CompTIA: Project+, Security+, Network+, A+
-- CIW JavaScript Specialist
 
 ---
 
@@ -117,7 +114,7 @@ These projects aren't just portfolio pieces - they're an evolving system. Each o
 
 ## Currently
 
-Completing B.S. in Accounting at Western Governors University (B.S. in IT, completed 2020) while building these technical projects and working as an independent contractor. The combination of hands-on development experience and formal accounting education is deliberate - I'm building toward software that helps small businesses operate with the financial precision of enterprises.
+Completing B.S. in Accounting at Western Governors University (B.S. in IT completed 2020) while building these technical projects. The combination of hands-on development experience and formal accounting education is deliberate - I'm building toward software that helps small businesses operate with the financial precision of enterprises.
 
 ---
 
